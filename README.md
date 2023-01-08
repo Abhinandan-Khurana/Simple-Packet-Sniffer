@@ -13,7 +13,7 @@
 ### This is a command line packet scanner utility for Windows based on Python. When in a network, you can use this to sniff http packets for leaked usernames and passwords, thereby performing MITM.
 
 
-### NOTE: It will work python3. You just need to install scapy module.
+### NOTE: You need to install scapy module before using this tool.
 ### Installation for scapy -->
 <code>pip install scapy</code>
 
@@ -28,4 +28,5 @@
 ### Example -->
 <code>
 [+] HTTP Request >>>b'testphp.vulnweb.com/userinfo.php'
-b'uname=USER&pass=PASSWORD' </code>
+b'uname=USER&pass=PASSWORD' 
+</code>
